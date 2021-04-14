@@ -61,7 +61,7 @@ def ClosestPointOnLine(a, b, p):
 # In[ ]:
 
 
-with open('block51_final.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     l = process_file(file)
 
 
@@ -163,7 +163,7 @@ df3[['avg_x','avg_y','avg_z']] = pd.DataFrame(df3.avg_midpoint.tolist(), index= 
 
 #write output to csv file
 
-df3.to_csv('51_processed.csv')
+df3.to_csv('output.csv')
 
 
 
